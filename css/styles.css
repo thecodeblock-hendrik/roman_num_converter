@@ -1,0 +1,23 @@
+:root {
+  --primary-font-color: #000;
+  --primary-green: #5bd0a4;
+  --primary-blue: #01648b;
+  --secondary-green: #2e8b57;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    var(--primary-blue),
+    var(--primary-green)
+  );
+}
